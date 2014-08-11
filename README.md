@@ -15,3 +15,13 @@ vagrant up
 ./scripts/upload
 ./scripts/clean
 ```
+
+If you receive this error when performing "vagrant up":  
+```
+* Unknown configuration section 'omnibus'.
+```
+
+Please be sure install the omnibus vagrant plugin:  
+```
+vagrant plugin install vagrant-omnibus
+```
